@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz portal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="container">
+        <div class="upper-component">
+            
+            <div class="title">
+                <h2>Design daily</h2>
+            </div>
+            <div class="icons">
+                <img src="icon.png" alt="" height="50px" width="50px">
+            </div>
+        </div>
+    </div>
+
+
+    <section class="quiz-portal container">
+        <div class="data">
+            <div class="question" id="question">
+                
+            </div>
+            <div class="answers">
+                <h2 id="h2">Quiz Buzz</h2>
+                <ul id="help" style="padding: 10px;visibility: hidden;">
+                   
+                    <li><input class="clicked" name="a" value="0" type="radio" id="a" > <p id="s"></p></li>
+                    <li><input name="a" class="clicked" value="1" type="radio" id="b"><p id="u"></p> </li>
+                    <li><input  class="clicked" name="a" value="2" type="radio" id="c"> <p id="v"></p>  </li>
+                </ul>
+            </div>
+    
+            <div class="button-submit ">
+                <button class="btn" id="btn">Start</button>
+            </div>        
+        </div>
+    </section>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
