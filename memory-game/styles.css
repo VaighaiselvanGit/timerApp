@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Poppins',sans-serif;
+ }
+ .container { 
+     margin: auto;
+     max-width: 1100px;
+  }
+.left-wrapper { 
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+ }
+ .left-wrapper .icons img { 
+    border-radius: 100px;
+    margin: 12px;
+  }
+  .main { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      /* background-color: rgb(37, 37, 37); */
+   }
+
+   .images { 
+       height: 350px;
+       width: 500px;
+       margin: 25px;
+       border-radius: 5px;
+       box-shadow: 2px 2px 2px 2px rgba(66, 66, 66, 0.7);
+       /* box-shadow: 2px 28px 23px 14px rgba(217,213,213,0.75);
+       -webkit-box-shadow: 2px 28px 23px 14px rgba(217,213,213,0.75);
+       -moz-box-shadow: 2px 28px 23px 14px rgba(217,213,213,0.75); */
+       background-image: url('/memory-game/images/stars.jpg');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    .content {
+        display: flex;
+        /* margin: 0px 12px; */
+        position: absolute;
+        z-index: 99;
+        color: white;
+    }
+    .content h1 {
+        text-align: center;
+        font-size:40px;
+        margin-left: 12px;
+        font-weight: bolder;
+    }
+    .content p{
+        padding: 0 12px;
+        font-size: 10px;
+        text-align: center;
+    }
+    footer .like {
+         text-align: center;
+     }
+     footer .like button { 
+        padding: 10px 25px;
+        font-family: 'Poppins',sans-serif;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        background-color: rgb(222, 225, 226);
+        color: rgb(37, 37, 37);
+        border-radius: 30px;
+        box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
+        cursor: pointer;
+      }
+      footer .like button:hover {
+          opacity: 0.7;
+      }
+      footer .like .fa-heart {
+          color: red;
+          padding: 2px;
+      }
